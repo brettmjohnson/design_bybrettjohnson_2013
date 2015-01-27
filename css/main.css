@@ -358,16 +358,16 @@ p {
     background-color: rgb(169, 213, 230); 
 }
 
-#panel_3 { /*Hatch*/
+#panel_3 { /*Mobilizer*/
+    background-color: rgb(56, 59, 64);
+}
+
+#panel_4 { /*Hatch*/
     background-color: rgb(188, 210, 136);
 }
 
-#panel_4 { /*Daniel Elms*/
+#panel_5 { /*Daniel Elms*/
     background-color: rgb(219,216,205);
-}
-
-#panel_5 { /*Rodefer Moss*/
-    background-color: rgb(211, 219, 225);
 }
 
 #panel_6 { /*Twitterverse*/
