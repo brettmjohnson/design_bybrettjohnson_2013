@@ -426,7 +426,7 @@ $(document).ready(function(){
 	function createPanelNav() {
 		// create bullets
 		$('#panel-nav').append('<ul></ul>');
-		var bullet_container = $('#panel-nav ul');
+		// var bullet_container = $('#panel-nav ul');
 		var i = panelCount;
 		while (i--) {
 			var panelHeadline = $('.panel:eq('+i+')').find('h1:eq(0)');

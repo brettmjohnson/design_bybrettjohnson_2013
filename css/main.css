@@ -110,6 +110,8 @@ textarea {
     -o-transition-delay: .3s;
     -ms-transition-delay: .3s;
     transition-delay: .3s;
+
+    /*display: none;*/
 }
 
 #preloader-content {
@@ -168,11 +170,11 @@ textarea {
 }
 
 .finished #preloader-bg {
-    -webkit-transform: translateY(-100%);
+/*    -webkit-transform: translateY(-100%);
     -moz-transform: translateY(-100%);
     -o-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
+    transform: translateY(-100%);*/
 }
 
 /* ==========================================================================
@@ -346,35 +348,39 @@ p {
     display: block; 
 }
 
-#panel_0 { /*Cube Run*/
+#panel_0 { /*About*/
+    background-color: rgb(255, 255, 255);
+}
+
+#panel_1 { /*Cube Run*/
     background-color: rgb(122, 57, 95);
 }
 
-#panel_1 { /*Films*/
+#panel_2 { /*Films*/
     background-color: rgb(47, 59, 65);
 }
 
-#panel_2 { /*King Pong*/
+#panel_3 { /*King Pong*/
     background-color: rgb(169, 213, 230); 
 }
 
-#panel_3 { /*Hatch*/
+#panel_4 { /*Hatch*/
     background-color: rgb(188, 210, 136);
 }
 
-#panel_4 { /*Daniel Elms*/
+#panel_5 { /*Daniel Elms*/
     background-color: rgb(219,216,205);
 }
 
-#panel_5 { /*Rodefer Moss*/
+#panel_6 { /*Rodefer Moss*/
     background-color: rgb(211, 219, 225);
 }
 
-#panel_6 { /*Twitterverse*/
+#panel_7 { /*Twitterverse*/
     background-color: rgb(74, 48, 87);
 }
 
-#panel_7 { /*Reel*/
+#panel_8 { /*Reel*/
     background-color: rgb(28, 31, 38); 
 }
 
@@ -421,7 +427,7 @@ p {
     font-size: .875rem;
     color: rgba(0,0,0,.75);
     font-weight: 700;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
     text-decoration: none;
     border-bottom: 0 solid transparent;
     text-transform: uppercase;
@@ -431,6 +437,20 @@ p {
     -o-transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
     -ms-transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    float: left;
+    fill: rgba(0,0,0,.75);
+    width: 40px;
+    text-align: center;
+}
+
+#main-nav a svg {
+    height: 44px;
+    /*width: 16px;*/
+}
+
+#main-nav a:hover {
+    fill: rgba(255,255,255,1);
 }
 
 .no-touch #main-nav a:hover, #main-nav a.on {
@@ -1385,6 +1405,11 @@ p {
         height: 60px;
         line-height: 60px;
         font-size: .9375rem;
+        width: 50px;
+    }
+    #main-nav a svg {
+        height: 60px;
+        /*width: auto;*/
     }
     .no-touch #main-nav a:hover, #main-nav a.on {
         border-bottom: 60px solid rgba(0,0,0,.75);
