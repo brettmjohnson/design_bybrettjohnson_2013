@@ -656,6 +656,11 @@ $(document).ready(function(){
 		window.setTimeout(function () {
 		    $('#slider-progress').text((currSlideIndex + 1) + '/' + slideCount);
 		}, time);
+		if (slideCount == 1) {
+			$('#slider-progress-wrap').addClass('one-slide');
+		} else {
+			$('#slider-progress-wrap').removeClass('one-slide');
+		}
 	}
 
 	// show progress bar on click
