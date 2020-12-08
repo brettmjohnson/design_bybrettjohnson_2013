@@ -457,7 +457,7 @@ $(document).ready(function(){
 			$('.project-link').each(function(){
 				var parentPanel = $(this).parents(".panel");
 				var href = $(parentPanel).find('.project-link').attr('href');
-			 	$(parentPanel).find('nav').append('<a class="project-link-trigger" target="_blank" href="'+ href +'"></a>');
+			 	$(parentPanel).find('nav').append('<a class="project-link-trigger" target="_blank" rel="noopener" href="'+ href +'"></a>');
 			});
 		}
     }
