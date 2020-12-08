@@ -879,14 +879,14 @@ p {
 }
 
 .no-touch .slider-prev {
-    cursor:url(http://bybrettjohnson.com/img/cursor-left.cur),pointer;
+    cursor:url(../img/cursor-left.cur),pointer;
 }
 
 .no-touch .slider-next {
     /*right: 0;*/
     width: 100%;
     z-index: 24;
-    cursor:url(http://bybrettjohnson.com/img/cursor-right.cur),pointer;
+    cursor:url(../img/cursor-right.cur),pointer;
 }
 
 .no-touch .panel-next {
@@ -894,7 +894,7 @@ p {
     width: 100%;
     height: 20%;
     bottom: 0;
-    cursor:url(http://bybrettjohnson.com/img/cursor-down.cur),pointer;
+    cursor:url(../img/cursor-down.cur),pointer;
     background-color: rgba(0,0,0,0); /*fixes IE9 bug where hovering over images disabled prev/next*/
     z-index: 30;
 }
@@ -904,7 +904,7 @@ p {
     width: 100%;
     height: 20%;
     top: 0;
-    cursor:url(http://bybrettjohnson.com/img/cursor-up.cur),pointer;
+    cursor:url(../img/cursor-up.cur),pointer;
     background-color: rgba(0,0,0,0); /*fixes IE9 bug where hovering over images disabled prev/next*/
     z-index: 30;
 }
