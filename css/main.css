@@ -756,7 +756,7 @@ p {
     padding-bottom: 52.93%; /* device screen height / device screen width * calculated width */
 }
 
-.portfolio-img img {
+.portfolio-img img, .portfolio-img video {
     width: 100%;
 }
 
